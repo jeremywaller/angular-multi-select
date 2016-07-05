@@ -1,0 +1,24 @@
+﻿#employee-transfer .multiSelect > button {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.multiSelect .multiSelectItem {
+    width: 100%;
+}
+
+.multiSelect .checkboxLayer {
+    width: 100%;
+}
+
+.multiSelect, .inlineBlock {		
+    position: relative;		
+}
+
+.buttonLabel span:first-child {
+    text-align: left; 
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 75%;
+}
